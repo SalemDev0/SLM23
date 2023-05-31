@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    margin-bottom: 80px;
+    margin-top: 30px;
+    position: relative;
+    width: 1080px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-login{
+    width: 350px;
+    height: 438px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
+.insta-img{
+    position: relative;
+    left: 90px;
+    background-image: url(instagram.png); 
+    background-position: 0px 0px; 
+    background-size: 176px 181px; 
+    width: 175px; 
+    height: 51px;
+    background-repeat: no-repeat; 
+    display: inline-block;
+}
+
+.head-input{
+    position: relative;
+    margin-top: 29px;
+    margin-left: 36px;
+}
+
+.input{
+    margin-top: 7px;
+}
+
+.input input{
+    position: relative;
+    width: 280px;
+    height: 38px;
+    border: 1px solid rgba(128, 128, 128, 0.467);
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #fafafa;
+}
+
+
+input::placeholder{
+    position: relative;
+    font-family: arial;
+    font-size: 0.8rem;
+}
+
+.login-bott{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+input.submit{
+    position: relative;
+    border-radius:9px; 
+    color: white; 
+    background-color: #6aa9f2; 
+    border: none; 
+    font-weight: 900;
+    width: 280px;
+    height: 33px;
+    font-size: 0.8rem;
+}
+
+span{
+    text-align: center; 
+    font-family: roboto;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.444);
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    top: 304px;
+    width: 110px;
+    right:404px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+span::after{
+    content: "";
+    position: absolute;
+    top: 304px;
+    left: 404px;
+    width: 110px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+.link-head{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.facebook{
+    text-align: center;
+}
+
+.face-text{
+    text-decoration: none;
+    color: #3d5081;
+    padding-left: 5px;
+    font-family: roboto;
+    
+}
+
+.fa-brands,fa-square-facebook{
+    font-size: 1.1rem;
+    color: #3d5081;
+}
+
+
+.forgot,.forgot-text{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 0.7rem;
+    font-family: arial;
+    color: #143667;
+}
+
+.mid{
+    width: 350px;
+    height: 59px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    margin-top: 10px;
+}
+
+.linked{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.linked a{
+    text-decoration: none;
+    color: #6aa9f2;
+    font-family: roboto;
+    font-size: 0.9rem;
+}
+
+.linked p{
+    font-family: arial;
+    font-size: 0.9rem;
+}
+
+.apps p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: arial;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.pics-app{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pics-app img{
+    padding-left: 5px;
+    background-color: white;
+}
+
+.apps::before{
+    content: "";
+    background-color: #ffffff;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    top: 629px;
+    left: 718px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.head-footer div{
+    position: relative;
+    display:inline-block;
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.footer-bottum{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -50px;
+}
+
+.footer-bottum p{
+    padding-left: 6px;
+    font-size: 0.8rem;
+    padding-top: 4px;
+}
