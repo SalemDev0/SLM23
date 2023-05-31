@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&family=Raleway:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F3FB;
+}
+
+.content{
+    position: relative;
+    background-color: white;
+    width: 410px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.167);
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    position: relative;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    border: none;
+    color: rgba(59, 55, 55, 0.128);
+    
+}
+
+.head h1{
+    position: relative;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+input::placeholder{
+    position: relative;
+    color: #B4B1BC;
+    font-family: arial;
+    font-size: 0.8rem;
+    height: 200px;
+    position:absolute;
+    font-family: raleway;
+}
+
+.input-login, .selceted-section{
+    padding-top: 50px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.115) ;
+    width: 280px;
+    margin: 0px 60px;
+}
+
+.input-login input ,select{
+    width: 280px;
+    height: 29px;
+    border:none;
+    overflow: hidden;
+
+}
+label{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 310px;
+    bottom: 0px;
+    font-family: 'Noto Sans Chorasmian', sans-serif;
+}
+
+.feedback{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+textarea::placeholder{
+    padding: 15px;
+    font-family:'Noto Sans Chorasmian', sans-serif;
+    font-size: 0.8rem;
+}
+textarea{
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.115) ;
+    border-radius: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.submit input{
+    padding: 15px 125px;
+    border: none;
+    border-radius: 30px;
+    background-color: #171736;
+    color: #F3F3FB;
+    cursor: pointer;
+    font-family:'Noto Sans Chorasmian', sans-serif;
+}
